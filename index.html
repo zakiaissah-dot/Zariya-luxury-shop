@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zariya Luxury</title>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Zariya Luxury</h1>
+<p>Elegance Redefined in Every Stitch</p>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to Zariya Luxury. We offer premium abayas and stylish bags for modern women.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Zariya Luxury is a fashion brand focused on elegant and modest wear.
+        We create high-quality abayas and luxury bags designed for confidence and style.
+    </p>
+</section>
+
+<!-- SHOP -->
+<section id="shop">
+    <h2>Shop</h2>
+
+    <h3>Abayas</h3>
+    <div class="product-container">
+
+     <div class="product-item">
+        <img src="3cdd91ad962247c156ed9a8a18ac73eb.jpg" alt="Abaya" width="200" height="200">
+         <p class="price">$1550.00</p>
+         <button onclick="addToCart('3cdd91ad962247c156ed9a8a18ac73eb.jpg', 1550)">Add</button>
+    </div>
+
+     <div class="product-item">
+       <img src="7c151ce178f52fcfb2e1f9bcd4d43e5e.jpg" alt="Abaya" width="200" height="200">
+        <p class="price">$1500.00</p>
+        <button onclick="addToCart('7c151ce178f52fcfb2e1f9bcd4d43e5e.jpg', 1500)">Add</button>
+     </div>
+
+     <div class="product-item">
+       <img src="811f68635e7276075cbe9a9c3178ce5e.jpg" alt="Abaya" width="200" height="200">
+        <p class="price">$2000.00</p>
+        <button onclick="addToCart('811f68635e7276075cbe9a9c3178ce5e.jpg', 2000)">Add</button>
+     </div>
+ 
+    
+    <h3>Bags</h3>
+    <div class="product-item">
+      <img src="480d57c02cdbc6c26a613778b6facd42.jpg" alt="" width="200" height="200">
+       <p class="price">$620.00</p>
+       <button onclick="addToCart('480d57c02cdbc6c26a613778b6facd42.jpg', 620)">Add</button>
+    </div>
+    <div class="product-item">
+      <img src="0059409ef38d9cdbaa752285c1110be4.jpg" alt="" width="200" height="200">
+       <p class="price">$550.00</p>
+       <button onclick="addToCart('0059409ef38d9cdbaa752285c1110be4.jpg', 550)">Add</button>
+    </div>
+    <div class="product-item">
+      <img src="a3037cd528de4e92fdcd7c763aed41e4.jpg" alt="" width="200" height="200">
+       <p class="price">$600.00</p>
+       <button onclick="addToCart('a3037cd528de4e92fdcd7c763aed41e4.jpg', 600)">Add</button>
+    </div>
+    </div>  
+    
+</section>
+
+    <div id="cart">Cart</div>
+    <p>Items in Cart: <span id="count">0</span></p>
+    <p>Total Price: $<span id="total">0</span></p>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: info@zariyaluxury.com</p>
+    <p>Phone: +233 242 208 802</p>
+</section>
+
+<!-- LINK TO JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
